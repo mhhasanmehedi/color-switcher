@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Switcher</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom css style link  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="color-switcher">
+      <div title="color" class="switcher-btn">
+        <i class="fas fa-cog"></i>
+      </div>
+      <h3>Select Color</h3>
+      <div class="theme-buttons-container">
+        <span
+          class="theme-buttons"
+          data-color="#8e44ad"
+          style="background: #8e44ad"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#2980b9"
+          style="background: #2980b9"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#f39c12"
+          style="background: #f39c12"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#27ae60"
+          style="background: #27ae60"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#ea2027"
+          style="background: #ea2027"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#e84393"
+          style="background: #e84393"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#ff4757"
+          style="background: #ff4757"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#ffc312"
+          style="background: #ffc312"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#17c0eb"
+          style="background: #17c0eb"
+        ></span>
+        <span class="theme-buttons colorValue" style="visibility: hidden"
+          ><input type="color"
+        /></span>
+        <i class="fas fa-pencil-alt"></i>
+      </div>
+
+      <h3>Select Font</h3>
+      <div class="theme-font-container">
+        <span class="theme-fonts-button" data-font="'Montserrat',sans-serif"
+          >Montserrat</span
+        >
+        <span class="theme-fonts-button" data-font="'Poppins', sans-serif"
+          >Poppins</span
+        >
+        <span class="theme-fonts-button" data-font="'Bad Script', cursive"
+          >Bad Script</span
+        >
+        <span class="theme-fonts-button" data-font="'Comfortaa', cursive"
+          >Comfortaa</span
+        >
+        <span class="theme-fonts-button" data-font="'Georama', sans-serif"
+          >Georama</span
+        >
+        <span class="theme-fonts-button" data-font="'Hachi Maru Pop', cursive"
+          >Hachi Maru Pop</span
+        >
+        <span class="theme-fonts-button" data-font="'MonteCarlo', cursive"
+          >MonteCarlo</span
+        >
+        <span class="theme-fonts-button" data-font="'Palette Mosaic', cursive"
+          >Palette Mosaic</span
+        >
+        <span class="theme-fonts-button" data-font="'Quicksand', sans-serif"
+          >Quicksand</span
+        >
+        <span class="theme-fonts-button" data-font="'Raleway', sans-serif"
+          >Raleway</span
+        >
+        <span class="theme-fonts-button" data-font="'STIX Two Text', serif"
+          >STIX Two Text</span
+        >
+        <span class="theme-fonts-button" data-font="'Style Script', cursive"
+          >Style Script</span
+        >
+        <span class="theme-fonts-button" data-font="'WindSong', cursive"
+          >WindSong</span
+        >
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Color Switcher</h1>
+    </div>
+
+    <!-- main javascript file -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
